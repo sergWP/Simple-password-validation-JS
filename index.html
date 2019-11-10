@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Simple password validation - native JS</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header_container grayBg">
+			<h1 class="header_h1 text-center">Test JS page</h1>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main_container">
+			<div class="main_container__row">
+				<form action="/" class="checkPasswordForm" onsubmit="formValidate();">
+					<input class="checkPasswordForm_name" type="text" name="name" placeholder="Name">
+					<input class="checkPasswordForm_password" type="password" name="pass" placeholder="Password">
+					<input class="checkPasswordForm_submit" type="submit" value="submit">
+				</form>
+				<div class="result"></div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<script type="text/javascript" src="common.js"></script>
+	</footer>
+</body>
+</html>
