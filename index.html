@@ -13,14 +13,23 @@
 	</header>
 	<main class="main">
 		<div class="main_container">
-			<div class="main_container__row">
-				<form action="/" class="checkPasswordForm" onsubmit="formValidate();">
-					<input class="checkPasswordForm_name" type="text" name="name" placeholder="Name">
-					<input class="checkPasswordForm_password" type="password" name="pass" placeholder="Password">
-					<input class="checkPasswordForm_submit" type="submit" value="submit">
-				</form>
-				<div class="result"></div>
-			</div>
+			<section class="mainForm">
+				<div class="main_container__row">
+					<form action="/" class="checkPasswordForm" onsubmit="formValidate();">
+						<input class="checkPasswordForm_name" type="text" name="name" placeholder="Name">
+						<input class="checkPasswordForm_password" type="password" name="pass" placeholder="Password">
+						<input class="checkPasswordForm_submit" type="submit" value="submit">
+					</form>
+					<div class="formResult"></div>
+				</div>
+			</section>
+			<section class="mainString">
+				<h2 class="body_h2">String Modify Section</h2>
+				<div class="main_container__stringModify">
+					<p>With spaces: <span class="string"></span></p>
+					<p>Without spaces: <span class="stringModify"></span></p>
+				</div>
+			</section>
 		</div>
 	</main>
 	<footer class="footer">
