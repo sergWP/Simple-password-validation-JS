@@ -32,8 +32,8 @@ function formValidate() {
 }
 
 function stringModify() {
-	var string = '';
-	var symbols = ' ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+	var string = ''; 
+	var symbols = 'A B CD EFGH IJKL MNO PQ RS TU VWX YZab cdef ghij klmn op qr stuv wx yz';
 	var symbolsLength = symbols.length;
 	for ( var i=1; i<=symbolsLength; i++ ) {
 		string += symbols.charAt(Math.floor(Math.random() * symbolsLength));
