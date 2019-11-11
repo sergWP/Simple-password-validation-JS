@@ -57,4 +57,9 @@ function buttonFunc() {
 		return false;
 	}
 }
-/***Lesson1_checkbox***/
+/***Lesson1_checkboxes***/
+var boxes = document.querySelectorAll('.l1_checkboxes label input');
+for(var i = boxes.length; i > 0; i--) {
+	//console.log(i);
+	console.log(boxes[i-1].value);
+}
