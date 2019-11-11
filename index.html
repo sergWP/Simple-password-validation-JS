@@ -31,14 +31,36 @@
 					<p>Without spaces: <br><span class="stringModify"></span></p>
 				</div>
 			</section>
-			<section class="pythagor">
+			<section class="mainLesson1">
+				<h2 class="body_h2">Inputs/Checkbox/Radio/Texarea</h2>
+				<label for="inputs" class="inputs">
+					<input type="text" class="l1_input" placeholder="Enter text" required="">
+					<button class="l1_input_submit" onclick="buttonFunc();">Push</button>
+				</label>
+				<hr>
+				<div class="l1_checkboxes">
+				<label><input type="checkbox" name="l1_checkbox" value="val1"> Label 1 </label><br>
+				<label><input type="checkbox" name="l1_checkbox" value="val12"> Label 2 </label><br>
+				<label><input type="checkbox" name="l1_checkbox" value="val123"> Label 3 </label>
+				</div>
+				<hr>
+				<select name="l1_select" class="l1_select">
+					<option value="default">default</option>
+					<option value="Variant 1">Variant 1</option>
+					<option value="Variant 2">Variant 2</option>
+					<option value="Variant 3">Variant 3</option>
+				</select>
+				<hr>
+				<textarea class="l1_textarea" placeholder="Some text" rows="4"></textarea>
+			</section>
+
+			<!--<section class="pythagor">
 				<h2 class="body_h2">Calc distance by Pythagorean Theorem</h2>
 				<div class="pythagor_formula">
-					<!-- Using https://www.mathjax.org/ -->
 					$${AB} = \sqrt{(x_{2} - x_{1})^2 + (y_{2} - y_{1})^2}$$
 				</div>
 				<p>Select two points on grid</p>
-			</section>
+			</section>-->
 		</div>
 	</main>
 	<footer class="footer">

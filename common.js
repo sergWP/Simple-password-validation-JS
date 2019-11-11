@@ -46,3 +46,15 @@ function stringModify() {
 	document.getElementsByClassName('stringModify')[0].innerHTML = newString;
 }
 stringModify();
+
+
+/***Lesson1_input***/
+function buttonFunc() {
+	var l1_input = document.getElementsByClassName('l1_input')[0].value;
+	if(l1_input) {
+		alert(l1_input);
+	} else {
+		return false;
+	}
+}
+/***Lesson1_checkbox***/
